@@ -4,10 +4,12 @@ import Signin from './pages/Signin'
 import About from './pages/About'
 import Signup from './pages/Signup'
 import Profile from './pages/Profile'
+import Heeaderr from './components/Heeaderr'
 
 export default function App() {
   return (
     <BrowserRouter>
+    <Heeaderr/>
     <Routes>
      
      
